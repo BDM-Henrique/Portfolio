@@ -120,9 +120,7 @@ body{
 }
 
 @media(max-width: 1200px){
-    body{
-        background-color: rgba(44, 14, 73, 0.884);
-    }
+    
     .cabecalho{
         padding: 10%;
     }
@@ -133,7 +131,10 @@ body{
 
     .apresentacao{
         flex-direction: column-reverse;
-        
+        padding: 5%;
     }
 
+    .apresentacao__conteudo{
+        width: auto%;
+    }
 }
